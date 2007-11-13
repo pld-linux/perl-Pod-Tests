@@ -6,7 +6,7 @@
 %define		pdir	Pod
 %define		pnam	Tests
 Summary:	Pod::Tests - Extracts embedded tests and code examples from POD
-Name:		perl-Pod-Simple
+Name:		perl-Pod-Tests
 Version:	0.18
 Release:	1
 # same as perl

@@ -6,6 +6,7 @@
 %define		pdir	Pod
 %define		pnam	Tests
 Summary:	Pod::Tests - Extracts embedded tests and code examples from POD
+Summary(pl.UTF-8):	Pod::Tests - wydobywanie osadzonych testów i przykładowego kodu z POD
 Name:		perl-Pod-Tests
 Version:	0.18
 Release:	1
@@ -26,6 +27,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a specialized POD viewer to extract embedded tests and code
 examples from POD. It doesn't do much more than that. pod2test does
 the useful work.
+
+%description -l pl.UTF-8
+Ten pakiet jest specjalizowaną przeglądarką POD służącą do wyciągania
+osadzonych testów i przykładowego kodu z dokumentacji w formacie POD.
+Robi niewiele więcej. pod2test wykonuje przydatną czynność.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

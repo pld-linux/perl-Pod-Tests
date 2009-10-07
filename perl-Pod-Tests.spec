@@ -8,13 +8,13 @@
 Summary:	Pod::Tests - Extracts embedded tests and code examples from POD
 Summary(pl.UTF-8):	Pod::Tests - wydobywanie osadzonych testów i przykładowego kodu z POD
 Name:		perl-Pod-Tests
-Version:	0.18
+Version:	1.19
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Pod/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	dab7e41c23a1c01fa3e96f6237781dda
+# Source0-md5:	9c1a062bc7689e0c4f94784e3de69f35
 URL:		http://search.cpan.org/dist/Pod-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 3.0.3-16

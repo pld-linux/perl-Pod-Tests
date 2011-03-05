@@ -21,8 +21,6 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq	'perl(overload()'
-
 %description
 This is a specialized POD viewer to extract embedded tests and code
 examples from POD. It doesn't do much more than that. pod2test does
@@ -54,7 +52,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc Changes README
 %attr(755,root,root) %{_bindir}/pod2test
 %{perl_vendorlib}/Pod/Tests.pm
-%{_mandir}/man[13]/*
+%{_mandir}/man1/pod2test.1p*
+%{_mandir}/man3/Pod::Tests.3pm*
